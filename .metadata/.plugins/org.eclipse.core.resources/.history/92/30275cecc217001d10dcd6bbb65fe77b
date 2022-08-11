@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class MiPrimeraClase {
+
+	public static void main(String[] args) {
+		String chain;
+		int number;
+		char character;
+		
+		chain = JOptionPane.showInputDialog("Escribe una cadena de carácteres: ");
+		number = Integer.parseInt(JOptionPane.showInputDialog("Escribe un número"));
+		character = JOptionPane.showInputDialog("Escribe un número").charAt(0);
+		
+		System.out.println("Name:"+chain+"\nId:"+number);
+	}
+}

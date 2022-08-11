@@ -1,0 +1,28 @@
+
+public class MathClass {
+
+	public static void main(String[] args) {
+		
+		// Calcular la raíz cuadrada de un número y pasarlo a entero:
+		double num;
+		int squareRoot, intNum;
+		
+		num = 9.8;
+		
+		squareRoot = (int) Math.sqrt(num);
+		
+		intNum = (int) num;
+		
+		System.out.println("La raíz cuadrada de "+intNum+" es : "+squareRoot);
+		
+		
+		// Elevar un número a su potencia:
+		double base = 5, exponente = 2, resultado;
+		
+		resultado = Math.pow(base, exponente);
+		
+		System.out.println("La potencia de "+base+" elevado a "+exponente+" es igual a: "+resultado);
+
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class MiPrimeraClase {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int numero;
+		
+		System.out.println("Escribe un número entero: ");
+		
+		entrada.nextInt(); // al usar el método de Scanner es cuando le da la opción de escribir por consola al usuario
+		
+		// System.out.println(numero);
+	}
+}

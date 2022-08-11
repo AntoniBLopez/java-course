@@ -1,0 +1,18 @@
+
+public class MathClass {
+
+	public static void main(String[] args) {
+		double num;
+		int squareRoot, intNum;
+		
+		num = 9.8;
+		
+		squareRoot = (int) Math.sqrt(num);
+		
+		intNum = (int) num;
+		
+		System.out.println("La raíz cuadrada de "+intNum+" es de: "+squareRoot);
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package Exercice1;
+
+public class CalculateSumOfThreeNotes {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class MiPrimeraClase {
+
+	public static void main(String[] args) {
+		byte nombreNumeroEntero = 127;
+		System.out.println("Hola Mundo! "+nombreNumeroEntero);
+	}
+}

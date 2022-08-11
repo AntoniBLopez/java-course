@@ -1,0 +1,9 @@
+
+public class MiPrimeraClase {
+
+	public static void main(String[] args) {
+		final char nombreNumeroEntero = 'H';
+		
+		System.out.println("Carácter: "+nombreNumeroEntero);
+	}
+}
