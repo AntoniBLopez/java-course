@@ -22,6 +22,8 @@ metadata*
 /metadata*
 
 FirstProject/
+/FirstProject/
+*FirstProject
 
 # Compiled class file
 *.class
