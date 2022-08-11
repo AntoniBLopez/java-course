@@ -21,6 +21,8 @@ bin/
 metadata*
 /metadata*
 
+FirstProject
+
 # Compiled class file
 *.class
 
