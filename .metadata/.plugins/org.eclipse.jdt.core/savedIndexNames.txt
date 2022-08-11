@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\tonib\dev\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-107573622.index
-3992977323.index
-1865797976.index

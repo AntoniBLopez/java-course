@@ -1,8 +1,0 @@
-
-public class MiPrimeraClase {
-
-	public static void main(String[] args) {
-		var nombreNumeroEntero = 320.00;
-		System.out.println("Hola Mundo! "+nombreNumeroEntero);
-	}
-}

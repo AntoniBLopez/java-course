@@ -1,9 +1,0 @@
-
-public class MiPrimeraClase {
-
-	public static void main(String[] args) {
-		final var entrada = System.in;
-		
-		System.out.println("Carácter: "+entrada);
-	}
-}

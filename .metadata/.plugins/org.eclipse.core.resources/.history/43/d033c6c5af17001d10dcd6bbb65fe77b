@@ -1,8 +1,0 @@
-
-public class MiPrimeraClase {
-
-	public static void main(String[] args) {
-		float nombreNumeroEntero = (float) 320.00;
-		System.out.println("Hola Mundo! "+nombreNumeroEntero);
-	}
-}

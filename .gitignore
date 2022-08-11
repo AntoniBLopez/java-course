@@ -13,17 +13,10 @@ bin/
 ### Java ###
 
 # Meta Data
-.metadata
-*.metadata
 .metadata/
-/.metadata/
-/metadata/
-metadata*
-/metadata*
 
+# Test
 FirstProject/
-/FirstProject/
-*FirstProject
 
 # Compiled class file
 *.class
