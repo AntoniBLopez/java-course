@@ -25,6 +25,7 @@ metadata*
 *metadata/
 
 /.metadata/
+/metadata/
 
 # Compiled class file
 *.class
