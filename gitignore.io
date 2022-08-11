@@ -1,3 +1,15 @@
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
 ### Java ###
 
 # Meta Data
@@ -8,6 +20,11 @@
 metadata
 metadata/
 metadata*
+## Hasta aquí ninguna combinación me está sirviendo para ocultar la carpeta .metadata
+*metadata
+*metadata/
+
+/.metadata/
 
 # Compiled class file
 *.class
