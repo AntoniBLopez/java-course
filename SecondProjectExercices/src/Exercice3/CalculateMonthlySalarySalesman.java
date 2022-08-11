@@ -18,18 +18,18 @@ public class CalculateMonthlySalarySalesman {
 				totalRewardSale = 0, carValue, carsSold, sumCuantity = 0, totalMonthlySalary;
 		
 		// Utilizo Scanner para pedirle datos al usuario desde la terminal:
-		Scanner entrada = new Scanner(System.in);
+		Scanner userDataEntry = new Scanner(System.in);
 		
 		// Le pido al usuario la cantidad de coches que ha vendido este mes:
 		System.out.println("Indica la cantidad de coches vendidos este mes:");
-		carsSold = entrada.nextDouble();
+		carsSold = userDataEntry.nextDouble();
 		
 		// Creo un ciclo que se itera la misma cantidad de veces que de vehículos vendidos:
 		for (int i = 1; i <= carsSold; i++) {
 			
 			// Le pido que me especifique el valor de cada coche vendido:
 			System.out.println("Indica el valor del coche vendido número "+i+" :");
-			carValue = entrada.nextDouble();
+			carValue = userDataEntry.nextDouble();
 			
 			// Calculo el porcentaje que recibe de recompensa por la venta de cada vehículo:
 			rewardForSale = 5 * carValue / 100;
