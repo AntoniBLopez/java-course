@@ -21,8 +21,10 @@ public class DetermineIfItIsUppercase {
 		
 		if (Character.isUpperCase(letra)) { // Character es una clase predeterminada de Java que tiene el método isUpperCase entre otros el cuál ->
 			// devuelve un tipo de dato boolean "true" si el character añadido es mayúscula (uppercase), o "false" si es minúscula (lowercase)
+			
 			JOptionPane.showMessageDialog(null, "Es una letra mayúscula");
 		} else {
+			
 			JOptionPane.showMessageDialog(null, "Es una letra minúscula");
 		}
 		
