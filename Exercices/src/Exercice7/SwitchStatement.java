@@ -34,6 +34,7 @@ public class SwitchStatement {
 		case 3: JOptionPane.showMessageDialog(null, "Es el número 3");
 				break;
 		case 4: JOptionPane.showMessageDialog(null, "Es el número 4");
+				break; // si quito este break, default se ejecutará siempre que se ejecute el caso 4
 		default: JOptionPane.showMessageDialog(null, "Es default"); // default al ser el último no necesita un break
 		}
 	}
